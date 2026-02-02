@@ -5,13 +5,13 @@ A simple full‑stack Contact Management System.
 
 - **Features**: Add, view, edit, delete, and search contacts (by name, email, company, or tags)
 - **UI**: Responsive layout with basic validation
-- **Backend**: Node.js + Express, JSON file persistence (no external DB required)
+- **Backend**: Node.js + Express, JSON file persistence (no external DB required beacuse the sample seed is very less, however, for production-level, it can be upgraded to mysql or mongodb)
 - **Frontend**: React (Vite)
 
 ## Tech Stack
 - Frontend: React 18, Vite
 - Backend: Node.js 18, Express 4, CORS
-- Database: JSON file (`backend/db.json`) persisted on disk (seeded with 12 sample contacts)
+- Database: JSON file (`backend/db.json`) (seeded with 12 sample contacts)
 
 
 
